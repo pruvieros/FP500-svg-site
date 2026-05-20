@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <style>
+    #image1 {opacity: 0;pointer-events: none;}
+    #image1_t:hover + #image1 {opacity: 1;}
+	
+    #image2 {opacity: 0;pointer-events: none;}
+    #image2_t:hover + #image2 {opacity: 1;}
+	
+	#image3 {opacity: 0;pointer-events: none;}
+    #image3_t:hover + #image3 {opacity: 1;}
+	
+	#image4 {opacity: 0;pointer-events: none;}
+    #image4_t:hover + #image4 {opacity: 1;}
+	
+	#image5 {opacity: 0;pointer-events: none;}
+    #image5_t:hover + #image5 {opacity: 1;}
+	
+	#image6 {opacity: 0;pointer-events: none;}
+    #image6_t:hover + #image6 {opacity: 1;}
+	
+	#image7 {opacity: 0;pointer-events: none;}
+    #image7_t:hover + #image7 {opacity: 1;}
+  </style>
+
+  <g id="layer1">
+    <!-- Carte France -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="France.png" id="France" x="10" y="10" />
+	
+    <!-- Légende1 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste1t.png" id="image1_t" x="10" y="190" />
+    <!-- Piste1 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste1.png" id="image1" x="10" y="10" />
+	
+    <!-- Légende2 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste2t.png" id="image2_t" x="10" y="197" />
+    <!-- Piste2 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste2.png" id="image2" x="10" y="10" />
+	
+	<!-- Légende3 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste3t.png" id="image3_t" x="10" y="204" />
+    <!-- Piste3 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste3.png" id="image3" x="10" y="10" />
+	
+	<!-- Légende4 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste4t.png" id="image4_t" x="10" y="211" />
+    <!-- Piste4 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste4.png" id="image4" x="10" y="10" />
+	
+	<!-- Légende5 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste5t.png" id="image5_t" x="10" y="218" />
+    <!-- Piste5 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste5.png" id="image5" x="10" y="10" />
+	
+	<!-- Légende6 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste6t.png" id="image6_t" x="10" y="225" />
+    <!-- Piste6 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste6.png" id="image6" x="10" y="10" />
+	
+	<!-- Légende7 -->
+    <image width="184.26544" height="8.6975756" preserveAspectRatio="none" xlink:href="piste7t.png" id="image7_t" x="10" y="232" />
+    <!-- Piste7 -->
+    <image width="183.8806" height="173.18182" preserveAspectRatio="none" xlink:href="piste7.png" id="image7" x="10" y="10" />
+
+  </g>
+
+</svg>
