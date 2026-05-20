@@ -13,35 +13,12 @@
       width: 100vw;
       height: 100vh;
       display: block;
-      transform-origin: center;
     }
   </style>
 </head>
 <body>
 
-<object id="svg" type="image/svg+xml" data="v2-5.svg"></object>
-
-<script>
-let scale = 1;
-
-const obj = document.getElementById("svg");
-
-window.addEventListener("wheel", (e) => {
-  e.preventDefault();
-
-  const zoomSpeed = 0.1;
-
-  if (e.deltaY < 0) {
-    scale += zoomSpeed;
-  } else {
-    scale -= zoomSpeed;
-  }
-
-  scale = Math.min(Math.max(0.5, scale), 5);
-
-  obj.style.transform = `scale(${scale})`;
-}, { passive: false });
-</script>
+<object type="image/svg+xml" data="v2-5.svg"></object>
 
 </body>
 </html>
